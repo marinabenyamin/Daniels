@@ -1,0 +1,145 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header{
+    background-image: url(../images/bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+.header-content h1{
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.header-content p{
+    font-size: 2rem;
+    text-align: center;
+}
+.lead1::after{
+    content: "  |";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{    content:"  |"}
+    2.5%{    content:" La  |"}
+    7%{    content:" rry |"}
+    9%{    content:" Larry Dan|"}
+    12%{    content:" Larry Daniels |"}
+    15%{    content:" Larry Dan |"}
+    18%{    content:" Larry |"}
+    21%{    content:" La |"}
+    24%{    content:"  |"}
+    27%{    content:"  Des |"}
+    30%{    content:" Design |"}
+    35%{    content:" Designer |"}
+    41%{    content:" Design |"}
+    49%{    content:" Desig |"}
+    59%{    content:" Desig |"}
+    67%{    content:" Desig |"}
+    77%{    content:" Desig |"}
+    80.8%{    content:" Desig |"}
+    84.6%{    content:" Desig |"}
+    88.4%{    content:" Desi|"}
+    92.2%{    content:" Des |"}
+    94%{    content:" De |"}
+    96%{    content:" D|"}
+    100%{    content:" |"}
+}
+.item:hover .icon2
+{
+    background-color: black !important;
+    color: white;
+}
+.icon2{
+    transition: 1s;
+}
+.layer{
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: 5px;
+    transform: translateY(10px);
+    transition: all 0.5s;
+    background-color: white;
+    
+}
+.item-por:hover .layer{
+    transform: translateY(0px);
+    opacity: 1;
+    
+}
+.portfolio h3{
+    transform: translateY(-40px);
+}
+.portfolio .item-por:hover h3{
+    transform: translateY(0px);
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.icon2{
+    width: 70px;
+    height: 70px;
+}   
+.item:hover{
+    background-color: #000000;
+}
+.all{
+    position: relative;
+}
+.all::after{
+    content: '';
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    top: 50px;
+    right: 30%;
+}
+
+.marina:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
